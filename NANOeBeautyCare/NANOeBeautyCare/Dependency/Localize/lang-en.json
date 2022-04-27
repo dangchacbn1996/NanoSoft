@@ -1,0 +1,66 @@
+{
+    "TabBar": {
+        "Customer":"Khách hàng",
+        "Home":"Trang chủ",
+        "Calendar":"Lịch hẹn",
+        "Sale":"Bán hàng",
+        "Docter":"Điều trị",
+        "Report":"Báo cáo",
+        "Social":"Cộng đồng",
+        "Profile":"Hồ sơ",
+        "More": "Thêm"
+    },
+    "Navigation": {
+        "Home":"Khách hàng",
+        "Appointment":"Danh sách lịch hẹn",
+        "Sales":"DS Khách hàng",
+        "Treatment":"DS Khách hàng điều trị",
+        "Report":"Báo cáo",
+        "CreateCustomer": "Thêm mới khách hàng",
+        "ServerSetting": "Cấu hình",
+        "HomeFilter": "Chọn điều kiện lọc",
+        "AppointmentFilter": "Chọn điều kiện lọc",
+        "TreatmentFilter": "Chọn điều kiện lọc",
+        "SalesFilter": "Chọn điều kiện lọc",
+        "CustomerDetailMore": "Thông tin",
+        "CustomerDetailHistory": "Lịch sử GD",
+        "CreateAppointment": "Khai báo thông tin",
+        "CreateSaleService": "Chi tiết hoá đơn",
+        "EditProductService": "Sửa sản phẩm",
+        "EditSpaService": "Sửa dịch vụ",
+        "EditInvoveService": "Sửa giảm giá hoá đơn",
+        "EditCardService": "Sửa thẻ dịch vụ",
+        "TreatmentEditDetail": "Thông tin liệu trình",
+        "ForgotPassword": "Quên mật khẩu"
+    },
+    "Filter": {
+        "All":"Tất cả",
+        "Pending": "Đang chờ",
+        "Processing":"Đang điều trị",
+        "Compelte":"Hoàn thành",
+        "Cancel":"Huỷ bỏ"
+    },
+    "SignIn": {
+        "Slogan":"Phòng khám công nghệ 4.0",
+        "Introduction": "Niềm tin vào cuộc sống",
+        "Username":"Tên đăng nhập",
+        "Password":"Mật khẩu",
+        "Action":"ĐĂNG NHẬP"
+    },
+    "ServerSetting": {
+        "Host": "Chọn cơ sở",
+        "TypeAccount": "Loại tài khoản",
+        "Customer": "Khách hàng",
+        "Staff": "Nhân viên",
+        "Setting": "Thiết lập",
+        "ConnectType":"Loại kết nối"
+    },
+    "Common": {
+        "EmptyTextField": "%@ bắt buộc phải nhập",
+        "Alert": "Thông Báo",
+        "OK":"Đóng",
+        "QuickSupport": "Hỗ trợ nhanh",
+        "SignOut":"Đăng xuất",
+        "Back": "Đóng"
+    }
+}

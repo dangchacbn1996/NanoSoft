@@ -1,0 +1,6 @@
+framework module Pods_NANOeBeautyCare_NANOeBeautyCareUITests {
+  umbrella header "Pods-NANOeBeautyCare-NANOeBeautyCareUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

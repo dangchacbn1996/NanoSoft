@@ -1,0 +1,53 @@
+platform :ios, "10.0"
+target 'NANOeBeautyCare' do
+    use_frameworks!
+
+    # Pods for EdufitLMS
+    pod 'Localize' #https://github.com/andresilvagomez/Localize
+    pod 'Alamofire'
+    pod 'SDWebImage'
+    pod 'IQKeyboardManagerSwift'
+    pod 'Whisper'
+    pod 'NotificationBannerSwift'
+    pod 'SwiftHEXColors'
+    pod 'NVActivityIndicatorView'
+    pod 'PinCodeTextField'
+    pod 'UIGradient'
+    pod 'DCAnimationKit'
+    pod 'DropDown'
+    pod 'Default'
+    pod 'SnapKit'
+    pod 'JXSegmentedView'
+    pod 'ActionSheetPicker-3.0'
+    pod 'AppleGenericKeychain', '4.0'
+    pod 'M13Checkbox'
+    
+    pod 'RichTextView'
+    
+    
+    #only copy below line
+    pod 'OneSignal', '>= 3.0.0', '< 4.0'
+     
+    target 'NANOeBeautyCareTests' do
+        inherit! :search_paths
+        # Pods for testing
+    end
+
+    target 'NANOeBeautyCareUITests' do
+        # Pods for testing
+    end
+ end
+
+ target 'OneSignalNotificationServiceExtension' do
+   use_frameworks!
+   #only copy below line
+   pod 'OneSignal', '>= 3.0.0', '< 4.0'
+ end
+
+post_install do |installer|
+    installer.pods_project.targets.each do |target|
+        target.build_configurations.each do |config|
+        config.build_settings['APPLICATION_EXTENSION_API_ONLY'] = 'No'
+        end
+    end
+end

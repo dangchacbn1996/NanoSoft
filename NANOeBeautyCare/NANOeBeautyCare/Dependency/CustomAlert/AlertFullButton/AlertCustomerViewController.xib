@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AlertCustomerViewController" customModule="NANOeBeautyCare" customModuleProvider="target">
+            <connections>
+                <outlet property="addButton" destination="sL8-Sf-Pmv" id="cC1-e6-LRO"/>
+                <outlet property="calendarButton" destination="Bra-nh-KS5" id="gEM-gb-8AO"/>
+                <outlet property="callButton" destination="59w-ms-5uz" id="d4F-na-uwm"/>
+                <outlet property="closeButton" destination="7k9-cM-lKi" id="Gf1-zC-m9f"/>
+                <outlet property="messageButton" destination="5i0-AH-RmM" id="J71-Y8-B0s"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fhE-v1-wxW" customClass="CardView" customModule="NANOeBeautyCare" customModuleProvider="target">
+                    <rect key="frame" x="32" y="380.5" width="350" height="135"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="jvc-hR-UYg">
+                            <rect key="frame" x="4" y="32" width="342" height="99"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="59w-ms-5uz">
+                                    <rect key="frame" x="0.0" y="0.0" width="82.5" height="99"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <state key="normal" image="ic-call"/>
+                                    <connections>
+                                        <action selector="callButtonAction:" destination="-1" eventType="touchUpInside" id="Gch-Tb-kK4"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5i0-AH-RmM">
+                                    <rect key="frame" x="86.5" y="0.0" width="82.5" height="99"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <state key="normal" image="ic-message"/>
+                                    <connections>
+                                        <action selector="messageButtonAction:" destination="-1" eventType="touchUpInside" id="rrt-4S-Vfu"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bra-nh-KS5">
+                                    <rect key="frame" x="173" y="0.0" width="82.5" height="99"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <state key="normal" image="ic-calendars"/>
+                                    <connections>
+                                        <action selector="calendarButtonAction:" destination="-1" eventType="touchUpInside" id="HUG-IR-WEU"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sL8-Sf-Pmv">
+                                    <rect key="frame" x="259.5" y="0.0" width="82.5" height="99"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <state key="normal" image="ic-add-cus"/>
+                                    <connections>
+                                        <action selector="addButtonAction:" destination="-1" eventType="touchUpInside" id="YwE-2K-cU6"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </stackView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7k9-cM-lKi">
+                            <rect key="frame" x="287" y="4" width="55" height="24"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="55" id="fd8-nK-s2s"/>
+                                <constraint firstAttribute="height" constant="24" id="xnI-zH-S7Y"/>
+                            </constraints>
+                            <state key="normal" image="ic-close"/>
+                            <connections>
+                                <action selector="closeButtonAction:" destination="-1" eventType="touchUpInside" id="7Sm-GK-We0"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="jvc-hR-UYg" firstAttribute="leading" secondItem="fhE-v1-wxW" secondAttribute="leading" constant="4" id="N1u-Vc-OPV"/>
+                        <constraint firstAttribute="trailing" secondItem="jvc-hR-UYg" secondAttribute="trailing" constant="4" id="PAx-RQ-VJ0"/>
+                        <constraint firstAttribute="trailing" secondItem="7k9-cM-lKi" secondAttribute="trailing" constant="8" id="Sww-oi-JXj"/>
+                        <constraint firstItem="7k9-cM-lKi" firstAttribute="top" secondItem="fhE-v1-wxW" secondAttribute="top" constant="4" id="hCi-Lg-Ntz"/>
+                        <constraint firstItem="jvc-hR-UYg" firstAttribute="top" secondItem="7k9-cM-lKi" secondAttribute="bottom" constant="4" id="jY2-8i-9G2"/>
+                        <constraint firstAttribute="bottom" secondItem="jvc-hR-UYg" secondAttribute="bottom" constant="4" id="kCR-cC-BZv"/>
+                        <constraint firstAttribute="height" constant="135" id="vt1-vN-ZfL"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="fhE-v1-wxW" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="25:64" id="04P-Xe-odX"/>
+                <constraint firstItem="fhE-v1-wxW" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Le8-w9-S5s"/>
+                <constraint firstItem="fhE-v1-wxW" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="jnc-Sk-3Mi"/>
+            </constraints>
+            <point key="canvasLocation" x="137.68115942028987" y="117.85714285714285"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic-add-cus" width="56" height="56"/>
+        <image name="ic-calendars" width="56" height="56"/>
+        <image name="ic-call" width="56" height="56"/>
+        <image name="ic-close" width="14" height="14"/>
+        <image name="ic-message" width="56" height="56"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

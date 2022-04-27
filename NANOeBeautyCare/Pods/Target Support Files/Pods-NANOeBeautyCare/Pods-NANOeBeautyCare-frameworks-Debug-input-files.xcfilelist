@@ -1,0 +1,23 @@
+${PODS_ROOT}/Target Support Files/Pods-NANOeBeautyCare/Pods-NANOeBeautyCare-frameworks.sh
+${BUILT_PRODUCTS_DIR}/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/AppleGenericKeychain/AppleGenericKeychain.framework
+${BUILT_PRODUCTS_DIR}/DCAnimationKit/DCAnimationKit.framework
+${BUILT_PRODUCTS_DIR}/Default/Default.framework
+${BUILT_PRODUCTS_DIR}/Down/Down.framework
+${BUILT_PRODUCTS_DIR}/DropDown/DropDown.framework
+${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework
+${BUILT_PRODUCTS_DIR}/JXSegmentedView/JXSegmentedView.framework
+${BUILT_PRODUCTS_DIR}/Localize/Localize.framework
+${BUILT_PRODUCTS_DIR}/M13Checkbox/M13Checkbox.framework
+${BUILT_PRODUCTS_DIR}/MarqueeLabel/MarqueeLabel.framework
+${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework
+${BUILT_PRODUCTS_DIR}/NotificationBannerSwift/NotificationBannerSwift.framework
+${BUILT_PRODUCTS_DIR}/PinCodeTextField/PinCodeTextField.framework
+${BUILT_PRODUCTS_DIR}/RichTextView/RichTextView.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
+${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework
+${BUILT_PRODUCTS_DIR}/SwiftHEXColors/SwiftHEXColors.framework
+${BUILT_PRODUCTS_DIR}/UIGradient/UIGradient.framework
+${BUILT_PRODUCTS_DIR}/Whisper/Whisper.framework
+${BUILT_PRODUCTS_DIR}/iosMath/iosMath.framework
